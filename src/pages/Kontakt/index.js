@@ -20,7 +20,7 @@ import GridItemAvatar from "../../components/GridItemAvatar";
 const useStyles = makeStyles(() => ({
   list: {
     color: "white",
-    left: 84,
+    left: 30,
     maxWidth: 350,
   },
   icon: {
@@ -42,7 +42,7 @@ export default function Home() {
               md: 24,
             },
             paddingLeft: {
-              xs: 15,
+              xs: 8,
             },
           }}
         >

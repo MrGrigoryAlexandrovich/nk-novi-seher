@@ -18,15 +18,14 @@ const useStyles = makeStyles(() => ({
   },
   title: {
     color: "white",
-    paddingLeft: 40,
+    paddingLeft: 15,
   },
   info: {
     paddingTop: 25,
-    paddingLeft: 40,
+    paddingLeft: 15,
     color: "white",
   },
   icon: {
-    paddingLeft: 20,
     color: "white",
   },
   selekcije: {
@@ -40,7 +39,7 @@ export default function Home() {
       <GridItemAvatar />
       <Grid item md={6} xs={12}>
         <Typography
-          variant="h4"
+          variant="h5"
           className={classes.title}
           sx={{
             paddingTop: {
@@ -59,7 +58,7 @@ export default function Home() {
           sx={{
             width: {
               md: 600,
-              xs: 400,
+              xs: 370,
             },
           }}
         >
